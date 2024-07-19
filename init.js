@@ -19,7 +19,7 @@ let allchats = [
         to:"preeti",
         msg:"send me notes for exam",
         created_at:new Date(),
-    },
+    }, 
     {
         from:"rohit",
         to:"mohit",
