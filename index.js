@@ -28,14 +28,12 @@ async function main() {
 
 // index route
 
-app.get("/chats",async(req,res)=>{
+app.get("/",async(req,res)=>{
     let chats = await chat.find();
     console.log(chats);
     res.render("index.ejs",{chats});
 })
-app.get("/",(req,res)=>{
-    res.send("root is working");
-});
+
 
 // new route
 
